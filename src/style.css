@@ -128,3 +128,16 @@ h1 {
 .xerite {
     text-align: center;
 }
+
+.image-container1 {
+    position: relative;
+    display: inline-block;
+}
+
+.image-container1 img {
+    transition: transform 0.75s;
+}
+
+.image-container1:hover img {
+    transform: scale(1.08);
+}
